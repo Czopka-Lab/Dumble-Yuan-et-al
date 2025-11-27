@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+Code used for analysis of GCaMP transients  
+\f1\b0 \
+This code can be used to extract events from input (Excel) files of mean grey values over 
+\f2\i n
+\f1\i0  frames for different ROIs. Function requires input of the number of frames/second (Hz) of the recording. Mean grey values over time in Excel files with names ending in \'93transients\'94 in a chosen folder will be converted to dF/F% over time, and events above a custom threshold will be extracted. dF/F% calculations use a minimum value from moving window to determine baseline \'96 number of values included in moving window can be changed. The threshold used to extract events from dF/F% traces can also be modified. The outputs to this code are Excel files with the number of calcium transients per recording. (file name starting with \'91FREQ\'92), the amplitude of events (file name starting with \'91AMP\'92) and duration (file name starting with \'91WIDTH\'92). There is also the possibility to plot dF/F% traces over time \'96 it is a comment in default code and can be un-commented when relevant.\
+}
